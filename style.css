@@ -1,0 +1,39 @@
+#Intro {
+  
+}
+
+  #Sketch {
+    display: flex;
+    justify-content: left;
+  }
+.gallery-container {
+
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    display: flex;
+    /*justify-content: center;*/
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+  }
+
+  #empathy-maps {
+    width: 1000px;
+    padding: 10px;
+    border: 10px solid gray;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  figcaption{
+    display: table-caption;
+    display: flex;
+    caption-side: bottom;
+    background-color: solid gray;
+    padding: 2px;
+  }
+  h1,
+  h2,
+  h3,
+  h4{
+    color: rgb(132, 122, 122)
+  }
