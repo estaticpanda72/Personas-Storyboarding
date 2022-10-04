@@ -1,24 +1,75 @@
-#Intro {
-  
+.center{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+.center-edit{
+  display: flex;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+.sketch-image{
+  width:20vw; 
+  height:20vw; 
+  border-radius: 10px; 
+}
+.sketch-margin{
+  margin: 2vw;
+}
+.li-text{
+  text-align: left;
 }
 
   #Sketch {
-    display: flex;
-    justify-content: left;
+    background-color: rgb(128, 113, 113);
+    border-radius: 10px;
+    padding: 10px;
+    border: 10px solid rgb(56, 53, 53);
+  }
+  #Intro{
+  background-color: rgb(128, 113, 113);
+  border-radius: 10px;
+  padding: 10px;
+  border: 10px solid rgb(56, 53, 53);
   }
 .gallery-container {
-
+  background-color: rgb(128, 113, 113);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2em;
+  border: 10px solid rgb(56, 53, 53);
     /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
-    display: flex;
-    /*justify-content: center;*/
-    flex-wrap: wrap; 
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
   }
-
+  #Observations{
+  background-color: rgb(128, 113, 113);
+  border-radius: 10px;
+  padding: 10px;
+  border: 10px solid rgb(56, 53, 53);
+  }
+  #Questions{
+  background-color: rgb(128, 113, 113);
+  border-radius: 10px;
+  padding: 10px;
+  border: 10px solid rgb(56, 53, 53);
+  }
+  .padding{
+    padding: 2vw;
+  }
+  #Responses{
+  background-color: rgb(128, 113, 113);
+  border-radius: 10px;
+  padding: 10px;
+  border: 10px solid rgb(56, 53, 53);
+  }
   #empathy-maps {
-    width: 1000px;
+    background-color: rgb(128, 113, 113);
+    border-radius: 10px;
     padding: 10px;
-    border: 10px solid gray;
+    border: 10px solid rgb(56, 53, 53);
     margin: 0;
     display: flex;
     justify-content: space-around;
@@ -30,10 +81,12 @@
     caption-side: bottom;
     background-color: solid gray;
     padding: 2px;
+    
   }
   h1,
   h2,
   h3,
   h4{
-    color: rgb(132, 122, 122)
+    color: whitesmoke;
+    /*color: rgb(132, 122, 122)*/
   }

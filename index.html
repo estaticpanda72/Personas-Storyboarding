@@ -3,16 +3,16 @@
 <head>
     <style> 
     
-        p { 
+        /* p { 
             width: 650px;  
               
-        } 
+        }  */
         p.gfg { 
             word-break: break-word; 
         } 
-        li {
+        /* li {
             width: 650px;
-        }
+        } */
         li.gfg {
             word-break: break-word;
         }
@@ -30,24 +30,27 @@
 
 </head>
     <body style= "background-color: rgba(173, 159, 132, 0.393);" font-family: 'Roboto', sans-serif;>
-        
-        <div id="Intro">
-        <h1 > Personas and StoryBoarding</h1> 
-        <h2 > CS1300</h2> 
-        <h3 > Preparation</h3>
-        <p> My chosen interface is the step-to-open trashcan found around Brown's campus. Pictured below</p>
-        </div>
+        <h1 class="center"> CS1300: Personas and StoryBoarding</h1> 
+        <h2 class="center"> Preparation</h2>
+        <div id="Sketch" class="center">
+            <div>
+                <img src="./images/trashcan.png" class="sketch-image"/>
+            </div>
+            
+            <div class="sketch-margin">
+                <p>My chosen interface is the step-to-open trashcan found around Brown's campus. Pictured below
+                    The step-to-open trashcans are quite intuitive and easily found around Brown's campus. The trashcan attempts to solve the problem of 
+                    having to touch a contaminated surface when throwing out trash. To do this, it employs a foot pedal that when stepped on 
+                    opens the disposal chute. A box-like compartment opens up and a user can place their trash inside. Then after depressing the pedal, 
+                    the compartment closes back up.</p>
+            </div>
+        </div> 
 
-        <div id="Sketch">
-        <img src="./images/trashcan.png" width="300" height="300" />
-        </div>
-        <p>The step-to-open trashcans are quite intuitive and easily found around Brown's campus. The trashcan attempts to solve the problem of 
-            having to touch a contaminated surface when throwing out trash. To do this, it employs a foot pedal that when stepped on 
-            opens the disposal chute. A box-like compartment opens up and a user can place their trash inside. Then after depressing the pedal, 
-            the compartment closes back up.</p>
-
-        <div>
+        <div class="center">
             <h2> Observations</h2> 
+        </div>
+        
+        <div id="Observations" class="center">
             <u1>
                 <li>Users stepped on the pedal with their right foot more than with their left. </li>
                 <li>Users who appeared to be in a hurry would ignore the foot pedal and instead use the handle to open the trash can</li>
@@ -56,32 +59,43 @@
                 <li>Users with large trash items needed to shove  their trash into the small compartment and this would prevent the slot from fully closing. 
                     After this, the next user would be unable to use the compartment because the trash would remain. </li>
             </u1>
+        </div>
+
+        <div class="center">
             <h2> Questions</h2> 
-            <u1>
+        </div>
+
+        <div id="Questions" class="center-edit">
+            <u1 class="li-text">
                 <li>How did you feel about the rate at which that trash can just opened for you?</li>
                 <li>Did you think it was big enough to fit your trash without much effort?</li>
                 <li>Was it comfortable to step on the pedal: On a scale of 1-10, how challenging was it to step on the pedal to open the trash can?</li> 
                 <li>Was it comfortable to pull on the handle: On a scale of 1-10, how challenging was it to step on the pedal to open the trash can?</li>
                 <li>How often do you take the time to actually put recyclable material into the recycling part of the bin?</li>
             </u1>
-            <h2 style="color: rgb(132, 122, 122)"> Responses Summary</h2> 
+        </div>
+
+        <div class="center">
+            <h2> Responses Summary</h2> 
+        </div>
+
+        <div id = "Responses" class="center">
             <u1>
-                <li>Overall the rate at which the trash can opened wasn’t an issue to the people I interviewed. 
-                They did note that they believed the compartment opened up was too narrow to comfortably place trash into. 
-                They had to almost approach placing the trash inside from a particular angle</li>
+                <li>Overall the rate at which the trash can opened wasn’t an issue to the people I interviewed. They did note that they believed the compartment opened up was too narrow to comfortably place trash into. They had to almost approach placing the trash inside from a particular angle</li>
                 <li>The pedal itself was not as wide as it could be.  Users felt the pedal should extend more so a whole foot would press on it.</li>
                 <li>Interviewed users had no issues with the handle. The average difficulty rating for pulling the handle was 2. </li>
-                <li> The general consensus was that even though the recycling side was right next to the trash side, 
-                users didn’t always make the effort to separate their waste material into the appropriate bin due to the awkward nature of having 
-                to step to open one bin and then step again.</li>
+                <li> The general consensus was that even though the recycling side was right next to the trash side, users didn’t always make the effort to separate their waste material into the appropriate bin due to the awkward nature of having to step to open one bin and then step again.</li>
             </u1>
         </div>
 
-        <h2> Empathy Maps: Introducing Joan and Kyle</h2> 
-        <div id="empathy-maps">
+        <div class="center">
+            <h2> Empathy Maps: Introducing Joan and Kyle</h2> 
+        </div>
+
+        <div id="empathy-maps" class="center">
             <figure>
-            <img src="./images/Empathy map 1.png" width="400" height="400" />
-            <figcaption style="width:400px">
+            <img src="./images/Empathy map 1.png" width="400" height="400" border-radius= "10px"/>
+            <figcaption  style="width:400px">
                 Description: Joan is a sophomore student who works a part time job along with doing
                 research at Brown. In her space time, she advocates for sustainable
                 practices and being conscious of the environmental impact one has.<br>
@@ -93,7 +107,7 @@
             </figure>
 
             <figure>
-            <img src="./images/Empathy map 2.png" width="400" height="400" />
+            <img src="./images/Empathy map 2.png" width="400" height="400" border-radius= "10px"/>
             <figcaption style="width:400px">
                 Description:"Kyle is a senior varsity soccer coach at Brown University. 
                 He's approximately 5'4 and has a broken right arm.<br>
@@ -104,8 +118,11 @@
             </figure>
         </div>
 
-        <h2> Storyboarding</h2> 
-        <div class="gallery-container">
+        <div class="center">
+            <h2> Storyboarding</h2> 
+        </div>
+
+        <div class="gallery-container" class="center">
             <figure>
             <img class="gallery-item" src="./images/frame-0001.jpg" alt="" height="200" width="200">
             <figcaption> Joan is walking out of her research building when she spots a cyclist driving by at full speed. 
@@ -123,9 +140,6 @@
             <img class="gallery-item" src="./images/frame-0004.jpg" alt="" height="200" width="200">
             <figcaption>Joan investigates the trashcans. She realizes that when she steps on the foot pedal below, a slot opens up to place trash into.</figcaption>
             </figure>
-        </div>
-        
-        <div class="gallery-container">
             <figure>
               <img class="gallery-item" src="./images/frame-0005.jpg" alt="" height="200" width="200">
             <figcaption> Joan also realizes the new trashcans have separate sides for trash and recycling. She's really passionate about sustainability so she begins to sort the trash into 2 piles</figcaption>
